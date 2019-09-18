@@ -6,7 +6,7 @@
 
 ## Screenshots
 
-![](C:\Users\MiFe\Desktop\screenshot_1.gif)
+![](screenshot_1.gif)
 
 
 
