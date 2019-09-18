@@ -218,7 +218,7 @@ class Ventana (wx.Frame):
 					salida = PDF.decrypt('')
 
 				except NotImplementedError:
-					command = "C:\\Users\\MiFe\\Desktop\\qpdf\\bin\\qpdf --password= --decrypt %s %s" % (archivo, self.carpeta + "temp.pdf")
+					command = "C:\\Path\\to\\folder\\qpdf\\bin\\qpdf --password= --decrypt %s %s" % (archivo, self.carpeta + "temp.pdf")
 					system(command)
 					# with open("\\Temp\\misalida.pdf", "rb"):
 					handler2 = open(self.carpeta + "temp.pdf", "rb")
